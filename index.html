@@ -1,68 +1,75 @@
 <!DOCTYPE html>
     <head>
         <title>ALISALA THEU</title>
-<style type="text/css">
-    header{
-        background-color: rgb(170, 170, 177);
-    }
-    body{
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-        font-weight: lighter;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-	h2{
-		font-family: arial;
-        text-align: center;
-	}
-	p{
-		font-family: arial;
-	}
-	a{
-		text-decoration: none;
-	}
-    footer{
-        background-color: gray;
-    }
-    nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    }
-    li{
-        padding: 4px;
-    }
-    h4{
-        color: white;
-        text-align: center;
-    }
-</style>
+        <link rel="stylesheet" href="style.css">
     </head>
-        
+
     <header>
           <nav>
           <ul>
-                    <li><a href="contacts.html">contacts</a></li>
-                    <li><a href="about.html">about </a></li>
-                  </ul>
+                <li><a href="contacts.html">CONTACTS</a></li>
+                <li><a href="skills.html">SKILLS</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                </ul>
               </nav>
   </header>
   <body>
+    <div class="slideshow-container" >
+        <div class="slide">
+            <img src="consa.webp" width="300px">
+        </div>
+        <div class="slide">
+            <img src="ECO.webp" width="300px">
+        </div>
+        <div class="slide">
+          <img src="traval.png" width="300px">
+        </div>
+      </div>
+    </div>
+    <br>
+    <div id="greeting"></div>
+    <br>
       <h2>ALISALA THEU</h2>
+      <div class="grid-container">
+
+        <div class="grid-item">
     <img src="theu.jpg" width="250x"> 
 <p>PROGRAMMER | GRAPHIC DESIGNER</p>
+        </div>
+        <div class="grid-item">
 <p>
     My Name is Alisala Theu, am a C language programmer with 1 yr experience. I have done couple of projects using C programming language. <br>
     Am also a graphic designer with 2yrs experience, is mostly use Adobe Photoshop and Adobe Illustrator. 
     
 </p>
+</div>
+</div>
+</div>
 <br><br>
+
+<div style=" border-width: 3px; margin: 10px; padding: 20px;
+max-width: fit-content; border-style: solid; border-radius: 14px;">
+    <h2>Contact Us</h2>
+
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+</div>
+
+<script src="script.js"></script>
 </body>
 <footer><br>
 <h4>
-Follow Us On Facebook | Twitter | Instagram
+Follow Us On<br> Facebook | Twitter | Instagram
 </h4>
 <br>
 </footer>
